@@ -1,0 +1,1 @@
+Dir.foreach("./lib") { |file| require "./lib/#{file}" if file[-2..-1] == "rb" }
